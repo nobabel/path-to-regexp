@@ -1,7 +1,7 @@
 {
   "name": "path-to-regexp",
   "description": "Express style path to RegExp utility",
-  "version": "2.2.0",
+  "version": "2.2.0-nobabel",
   "main": "index.js",
   "module": "index.es6.js",
   "jsnext:main": "index.es6.js",
