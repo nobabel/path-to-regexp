@@ -2,6 +2,7 @@
  * Expose `pathToRegexp`.
  */
 module.exports = pathToRegexp
+module.exports.default = pathToRegexp
 module.exports.parse = parse
 module.exports.compile = compile
 module.exports.tokensToFunction = tokensToFunction
