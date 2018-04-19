@@ -73,6 +73,6 @@ export const tokensToFunction: (tokens: Token[]) => PathFunction;
  */
 export const tokensToRegExp: (tokens: Token[], keys?: Key[], options?: RegExpOptions) => RegExp;
 
-const pathToRegexp: (path: Path, keys?: Key[], options?: RegExpOptions & ParseOptions) => RegExp;
+declare const pathToRegexp: (path: Path, keys?: Key[], options?: RegExpOptions & ParseOptions) => RegExp;
 
 export default pathToRegexp;
